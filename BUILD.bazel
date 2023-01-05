@@ -1,0 +1,6 @@
+
+cc_library(
+    name = "threadpool",
+    hdrs = ["ThreadPool.h"],
+    visibility = ["//visibility:public"],
+)
